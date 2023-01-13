@@ -2,7 +2,7 @@ import { body, validationResult } from "express-validator";
 
 import { studentRepository, userRepository } from "../repositories/index.js";
 
-// Thêm sự kiện events có sẵn trong node
+// Thêm sự kiện events có sẵn trong node Notify
 import { EventEmitter } from "node:events";
 
 //Event emitted
