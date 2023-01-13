@@ -5,9 +5,10 @@ How to install express with command line
 1. yarn add express && yarn install --save express
 2. npm install express --save : cài thư viện expressJS
 
-## yarn add dotenv :: thư viện cấu hình tới file port server.js
- 
-## Ctrl+c -> Để thoát và chạy lại server ->>>  listening on port
+Libary useful for frameworks express
+*yarn add dotenv : là thư viện cấu hình tới file port server.js*
+After when use adotenv 
+*Ctrl+c -> Để thoát và chạy lại server ->>>  listening on port*
 
 ## Mỗi lần sửa code cập nhật ngay  ->> yarn add nodemon && npm install -g nodemon  <---------------> chạy lại = lệnh nodemon file.js
 
