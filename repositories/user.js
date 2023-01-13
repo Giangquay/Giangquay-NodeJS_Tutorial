@@ -1,5 +1,5 @@
 const login = async ({ email, password }) => {
-  console.log("login user in user repository");
+  console.log("login user in user repository, check");
 };
 
 const register = async ({ name, email, password, phoneNumber, address }) => {

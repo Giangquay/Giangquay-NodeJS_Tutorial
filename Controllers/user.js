@@ -17,8 +17,13 @@ const login = async (req, res) => {
   });
 };
 const register = async (req, res) => {
+  //destructuring
+  const{
+    name, email, password, phoneNumber, address,
+  }=req.body
+  await userRepository.register({name,email,password,phoneNumber,address})
   res.status(201).json({
-    message:'Post Registration users',
+    message:'Post Registration successfully',
   })
 };
 
