@@ -1,4 +1,4 @@
-# Tự học NodeJS 2023 - MongoDB Mongoose - JWT | JSON Web Token
+b# Tự học NodeJS 2023 - MongoDB Mongoose - JWT | JSON Web Token
 
 How to install express with command line
 
@@ -19,7 +19,7 @@ After when use nodemon<br />
  chế độ debug> repl để xem request **request.params** && **request?.params?.id có thể null**
   && **request?.params?.id ? "" không có thông tin trả về ""**
 
-{
+{<br />
   "name": "myapp", <br />
   "type": "module",      **"type": "module" trong package.json : config cho phép import các file js sử dụng trong cùng nhau**<br />
   "version": "1.0.0",<br />
@@ -45,7 +45,7 @@ With long command line ,let user scripts
     "start": "nodemon server.js",<br />
     "debug": "node inspect server.js"<br />
   },<br />
-  
+
 ## Chỉ cần dùng yarn start thì sẽ tự động chạy script.start
 
 
@@ -55,15 +55,15 @@ With long command line ,let user scripts
 Response(json) Eg:{"name":"Nguyen Minh Giang","password":1232312312}
 node a "parser" :Express/Json parser
 
-//debug để xem js phải thêm app.use(express.Json)
+</br>
+
+*debug để xem js phải thêm app.use(express.Json)*
 debug 
 repl
 
 request.body
 request.body.key
-**
 
 
-
-*Thêm sự kiện events có sẵn trong node Notify*
+*Thêm sự kiện events có sẵn trong node Notify* </br>
 import { EventEmitter } from "node:events";
