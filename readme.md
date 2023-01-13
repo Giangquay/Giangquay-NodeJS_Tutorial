@@ -20,31 +20,32 @@ After when use nodemon<br />
   && **request?.params?.id ? "" không có thông tin trả về ""**
 
 {
-  "name": "myapp", 
-  "type": "module",      **"type": "module" trong package.json : config cho phép import các file js sử dụng trong cùng nhau**
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-   "scripts": {
-    "start": "nodemon server.js",
-    "debug": "node inspect server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {  **Nơi chứa các thư viện**
-    "express": "^4.18.2" **Phiên bản thư viện**
-    "dotenv": "^16.0.3", **thư viện cấu hình tới file port server.js**
-    "nodemon": "^2.0.20"   **Mỗi lần sửa code cập nhật ngay**
-  }
-}
-
+  "name": "myapp", <br />
+  "type": "module",      **"type": "module" trong package.json : config cho phép import các file js sử dụng trong cùng nhau**<br />
+  "version": "1.0.0",<br />
+  "description": "",<br />
+  "main": "index.js",<br />
+   "scripts": {<br />
+    "start": "nodemon server.js",<br />
+    "debug": "node inspect server.js"<br />
+  },<br />
+  "keywords": [],<br />
+  "author": "",<br />
+  "license": "ISC",<br />
+  "dependencies": {  **Nơi chứa các thư viện**<br />
+    "express": "^4.18.2" **Phiên bản thư viện**<br />
+    "dotenv": "^16.0.3", **thư viện cấu hình tới file port server.js**<br />
+    "nodemon": "^2.0.20"   **Mỗi lần sửa code cập nhật ngay**<br />
+  }<br />
+}<br />
+<br />
 With long command line ,let user scripts  
-
- "scripts": {
-    "start": "nodemon server.js",
-    "debug": "node inspect server.js"
-  },
+<br />
+ "scripts": {<br />
+    "start": "nodemon server.js",<br />
+    "debug": "node inspect server.js"<br />
+  },<br />
+  
 ## Chỉ cần dùng yarn start thì sẽ tự động chạy script.start
 
 
