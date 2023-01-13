@@ -1,14 +1,17 @@
+# Tự học NodeJS 2023 - MongoDB Mongoose - JWT | JSON Web Token
 
+How to install express with command line
 
-# yarn add express && yarn install --save express && npm install express --save : cài thư viện expressJS 
+1. yarn add express && yarn install --save express
+2. npm install express --save : cài thư viện expressJS
 
-# yarn add dotenv :: thư viện cấu hình tới file port server.js
+## yarn add dotenv :: thư viện cấu hình tới file port server.js
  
-# Ctrl+c -> Để thoát và chạy lại server ->>>  listening on port
+## Ctrl+c -> Để thoát và chạy lại server ->>>  listening on port
 
-# Mỗi lần sửa code cập nhật ngay  ->> yarn add nodemon && npm install -g nodemon  <---------------> chạy lại = lệnh nodemon file.js
+## Mỗi lần sửa code cập nhật ngay  ->> yarn add nodemon && npm install -g nodemon  <---------------> chạy lại = lệnh nodemon file.js
 
-# Bao nhiêu thực thể thì có bấy nhiêu router
+## Bao nhiêu thực thể thì có bấy nhiêu router
 
 ## debugger -------------------------> node inspect server.js   //c để tiếp tục  /// list(value) để xem số lượng dòng debugger 
  chế độ debug> repl để xem request **request.params** && **request?.params?.id có thể null**
@@ -59,5 +62,5 @@ request.body.key
 
 
 
-// Thêm sự kiện events có sẵn trong node Notify
+*Thêm sự kiện events có sẵn trong node Notify*
 import { EventEmitter } from "node:events";
