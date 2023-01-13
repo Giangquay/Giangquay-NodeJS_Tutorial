@@ -56,3 +56,8 @@ repl
 request.body
 request.body.key
 **
+
+
+
+// Thêm sự kiện events có sẵn trong node Notify
+import { EventEmitter } from "node:events";
