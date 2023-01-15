@@ -5,7 +5,7 @@ import { body, validationResult } from "express-validator";
 import{
   userController,
   studentController,
-}from "../Controllers/index.js"
+}from "../controllers/index.js"
 
 //Khởi tạo đối tượng router
 const routes = express.Router();

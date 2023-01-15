@@ -67,3 +67,16 @@ request.body.key
 
 *Thêm sự kiện events có sẵn trong node Notify* </br>
 import { EventEmitter } from "node:events";
+
+
+###### MONGODB 
+
+yarn add mongoose
+
+npm install mongodb
+
+
+### Show colour on terminal
+
+yarn add chalk
+
