@@ -2,7 +2,7 @@ b# Tự học NodeJS 2023 - MongoDB Mongoose - JWT | JSON Web Token
 
 How to install express with command line
 
-1. yarn add express && yarn install --save express
+ . yarn add express && yarn install --save express
 2. npm install express --save : cài thư viện expressJS
 
 Libary useful for frameworks express <br />
@@ -15,7 +15,7 @@ After when use nodemon<br />
 
 ## Bao nhiêu thực thể thì có bấy nhiêu router
 
-## debugger -------------------------> node inspect server.js   //c để tiếp tục  /// list(value) để xem số lượng dòng debugger 
+## debugger -------------------------> node inspect server.js   //c để tiếp tục  /// list(value) để xem số lượng dòng 
  chế độ debug> repl để xem request **request.params** && **request?.params?.id có thể null**
   && **request?.params?.id ? "" không có thông tin trả về ""**
 
@@ -80,3 +80,11 @@ npm install mongodb
 
 yarn add chalk
 
+### Libary Validation
+
+yarn add validator
+
+
+### Encrypt 
+
+yarn add bcrypt
