@@ -9,7 +9,7 @@ class OuputType {
 function print(message, ouputType) {
   switch (ouputType) {
     case OuputType.INFORMATION:
-      console.log(chalk.white(message));
+      console.log(chalk.yellowBright(message));
       break;
     case OuputType.SUCCESS:
       console.log(chalk.green(message));
@@ -21,7 +21,7 @@ function print(message, ouputType) {
       console.log(chalk.red(message));
       break;
       default:
-        console.log(chalk.white(message))
+        console.log(chalk.yellowBright(message))
   }
 }
 
